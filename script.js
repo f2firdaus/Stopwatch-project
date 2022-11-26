@@ -65,7 +65,7 @@ var countdownID;
 clockButton.addEventListener('click', function () {
     if (!clockRunning) {
         clockRunning = true;
-        window.setInterval(countdown, 10);
+        window.setInterval(countdown, 1000);
         clockButton.innerText="Pause"
     } else {
         clockRunning = false;
